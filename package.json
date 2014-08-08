@@ -1,7 +1,12 @@
 {
   "name": "gulp-replace-line",
   "version": "0.0.0",
-  "description": "gulp-replace-line =================",
+  "description": "Replace line",
+  "keywords": [
+    "gulpplugin",
+    "replace",
+    "regexp"
+  ],
   "main": "lib/gulp-replace-line.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +24,19 @@
   "dependencies": {
     "gulp-util": "^3.0.0",
     "through2": "^0.5.1"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.7.1",
+    "coveralls": "^2.11.1",
+    "event-stream": "^3.1.7",
+    "expect": "^0.1.1",
+    "gulp": "^3.8.6",
+    "gulp-coffee": "^2.1.1",
+    "gulp-mocha": "^0.5.2",
+    "gulp-replace": "^0.4.0",
+    "gulp-watch": "^0.6.9",
+    "istanbul": "^0.3.0",
+    "mocha": "^1.21.3",
+    "mocha-lcov-reporter": "0.0.1"
   }
 }
